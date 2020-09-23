@@ -1,0 +1,42 @@
+* {
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: left;
+  font-size: 40px;
+}
+
+.container {
+  background-color: pink;
+  position: relative;
+  width: 1000px;
+  left: 150px;
+}
+
+#fixed {
+  background-color: lightgray;
+  position: fixed;
+  height: 100px;
+  width: 200px;
+  z-index: 5;
+}
+
+#relative {
+  background-color: lightgray;
+  position: relative;
+  height: 150px;
+  /* width: 800px; */
+  /* top: 20px; */
+  right: 0;
+}
+
+#absolute {
+  background-color: darkgray;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  right: -20px;
+  top: 50px;
+}
